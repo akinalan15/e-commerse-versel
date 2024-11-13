@@ -11,7 +11,11 @@ const { createConnection } = require("net");
 
 app.use(express.json());
 // cors origin
-const allowedOrigins = ["http://localhost:4000", "http://localhost:3000"];
+const allowedOrigins = [
+  "http://localhost:4000",
+  "http://localhost:3000",
+  "https://e-commerse-versel-frontend.vercel.app",
+];
 
 app.use(
   cors({
