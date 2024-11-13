@@ -1,0 +1,41 @@
+.main-ads2 {
+  width: 75rem;
+  height: 18rem;
+  background-color: aquamarine;
+  margin-left: 14rem;
+  border-radius: 10px;
+  position: relative;
+}
+.ads2-left img {
+  width: 28rem;
+  background-color: aquamarine;
+  position: absolute;
+  bottom: 0px;
+  left: 10rem;
+}
+
+.ads2-right h2 {
+  position: absolute;
+  font-size: 35px;
+  top: 5rem;
+  left: 30rem;
+}
+
+.ads2-right p {
+  position: absolute;
+  top: 11rem;
+  left: 30rem;
+}
+.ads2-right button {
+  position: absolute;
+  top: 12rem;
+  left: 27rem;
+}
+@media (min-width: 1025px) {
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 768px) {
+}
+@media (max-width: 480px) {
+}

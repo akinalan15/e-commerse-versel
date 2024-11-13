@@ -1,0 +1,50 @@
+.Sidebar {
+  background-color: white;
+  width: 15rem;
+  height: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+}
+
+.S1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  margin-left: 2rem;
+  margin-top: 25px;
+  background-color: rgba(128, 128, 128, 0.281);
+  color: black;
+}
+.S2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  margin-left: 2rem;
+  margin-top: 25px;
+  background-color: rgba(128, 128, 128, 0.281);
+  color: black;
+}
+
+.S1 img {
+  width: 2rem;
+}
+.S2 img {
+  width: 2rem;
+}
+@media (min-width: 1025px) {
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 768px) {
+}
+@media (max-width: 480px) {
+}

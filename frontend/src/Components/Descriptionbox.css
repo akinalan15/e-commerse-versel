@@ -1,0 +1,44 @@
+.dbox {
+  margin-left: 5rem;
+  /* background-color: aqua; */
+  width: 80rem;
+}
+.Descriptionbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.tit1 {
+  /* background-color: gray; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  height: 2rem;
+  border: 1px solid rgba(128, 128, 128, 0.685);
+  border-bottom: 0px;
+}
+.tit2 {
+  width: 7rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(128, 128, 128, 0.685);
+  border-left: 0px;
+  border-bottom: 0px;
+}
+
+.desContent p {
+  border: 1px solid rgba(128, 128, 128, 0.685);
+  padding: 15px;
+}
+@media (min-width: 1025px) {
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 768px) {
+}
+@media (max-width: 480px) {
+}

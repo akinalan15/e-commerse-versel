@@ -1,0 +1,90 @@
+.cartitems {
+  margin: 7rem;
+}
+.cartitems_main {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+}
+.cartitems hr {
+  width: 73rem;
+  margin-top: 0.5rem;
+  background-color: rgba(128, 128, 128, 0.397);
+}
+
+.secondaryCart {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.imgcart {
+  width: 4rem;
+}
+.cartname {
+  font-size: 13px;
+}
+
+.cartbtn {
+  width: 3rem;
+  margin-left: 6px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid rgba(128, 128, 128, 0.397);
+  border-radius: 0px;
+}
+.total {
+  margin-left: 6px;
+}
+.dltbtn {
+  width: 2rem;
+  margin-left: 1rem;
+}
+
+.cart-down {
+  margin: 4rem;
+}
+.cartPriceTotal h1 {
+  font-size: 20px;
+}
+.cart-items-total {
+  width: 40rem;
+}
+.cart-items-total hr {
+  width: 40rem;
+}
+.cart_totalItems {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.cartitems-total-item {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.cartItems-total-item {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-proceed {
+  background-color: red;
+  width: 9rem;
+  font-size: 10px;
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-top: 2rem;
+}
+.btn-proceed:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+@media (min-width: 1025px) {
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 768px) {
+}
+@media (max-width: 480px) {
+}

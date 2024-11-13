@@ -1,0 +1,33 @@
+.NewCollection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.NewCollection h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.NewCollection hr {
+  width: 15rem;
+  height: 7px;
+  background-color: black;
+  border-radius: 10px;
+}
+.NewCollection .data {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  gap: 20px;
+}
+@media (min-width: 1025px) {
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 768px) {
+}
+@media (max-width: 480px) {
+}

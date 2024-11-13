@@ -1,0 +1,125 @@
+.Admin {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(128, 128, 128, 0.281);
+  width: 96rem;
+  height: 100%;
+}
+.admin-content {
+  width: 50rem;
+  height: 31.68rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.admin-content input {
+  display: flex;
+  flex-direction: row;
+}
+.admin-primary {
+  display: flex;
+}
+.product-title h3 {
+  width: 8rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
+.product-title input {
+  width: 40rem;
+  height: 2rem;
+  margin-left: 2rem;
+  margin-top: 0.2rem;
+  padding: 5px;
+}
+
+.different-prices {
+  display: flex;
+}
+.Price h3 {
+  width: 8rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
+
+.Price input {
+  width: 15rem;
+  height: 2rem;
+  margin-left: 2rem;
+  margin-top: 0.2rem;
+  padding: 5px;
+}
+.offer-price {
+  float: left;
+}
+.offer-price h3 {
+  width: 8rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
+.offer-price input {
+  width: 15rem;
+  height: 2rem;
+  margin-left: 2rem;
+  margin-top: 0.2rem;
+  padding: 5px;
+}
+
+.upload input {
+  display: none;
+}
+.upload img {
+  color: grey;
+}
+.product-category h3 {
+  width: 10rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
+
+.product-category select {
+  width: 15rem;
+  height: 2rem;
+  margin-left: 2rem;
+  margin-top: 0.2rem;
+  padding: 5px;
+  outline: none;
+}
+.upload h3 {
+  width: 10rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
+
+.upload img {
+  width: 5rem;
+  height: 5rem;
+  margin-left: 2rem;
+  margin-top: 0.2rem;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.admin-addbtn {
+  width: 6rem;
+  height: 2.5rem;
+  border-radius: 0px;
+  margin-left: 2rem;
+  background-color: rgba(0, 0, 255, 0.795);
+}
+@media (min-width: 1025px) {
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 768px) {
+}
+@media (max-width: 480px) {
+}

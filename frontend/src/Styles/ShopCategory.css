@@ -1,0 +1,47 @@
+.categ2 img {
+  width: 100%;
+}
+.other-items {
+  display: flex;
+  flex-direction: row;
+  margin: 3rem;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.other-items span {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.newItems {
+  margin-left: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 70px;
+}
+.sort {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 15px;
+  align-items: center;
+  width: 6rem;
+  padding: 10px;
+}
+
+.sort p {
+  font-size: 15px;
+}
+.sort img {
+  width: 25px;
+  height: 30px;
+}
+@media (min-width: 1025px) {
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 768px) {
+}
+@media (max-width: 480px) {
+}

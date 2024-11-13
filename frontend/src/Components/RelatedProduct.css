@@ -1,0 +1,28 @@
+.related h1 {
+  margin: 5rem;
+  margin-bottom: 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.related hr {
+  background-color: black;
+  margin-left: 40rem;
+  height: 5px;
+  width: 15rem;
+}
+.related_product {
+  width: 60rem;
+  display: flex;
+  gap: 60px;
+  margin-top: 3rem;
+  margin-left: 11rem;
+}
+@media (min-width: 1025px) {
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 768px) {
+}
+@media (max-width: 480px) {
+}
