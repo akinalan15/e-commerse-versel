@@ -9,6 +9,12 @@ const path = require("path");
 const cors = require("cors");
 const { createConnection } = require("net");
 
+
+app.use(express.static('public'));
+app.get('/favicon.ico', (req, res) => res.status(204).end());
+
+
+
 app.use(express.json());
 // cors origin
 const allowedOrigins = [
