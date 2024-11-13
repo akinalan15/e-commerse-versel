@@ -19,7 +19,7 @@ const Signup = () => {
     }
 
     try {
-      const res = await fetch("http://localhost:4000/signup", {
+      const res = await fetch(`${import.meta.env.REACT_SERVER_APP_URL}signup`, {
         method: "POST",
         headers: {
           "content-Type": "application/json",
